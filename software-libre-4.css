@@ -21,6 +21,11 @@ h1 {
     margin: 0;
     background-color: #31334D;
     color: white;
+
+}
+
+h1.main-title {
+    margin-bottom: 2vw;
 }
 
 h2 {
@@ -56,6 +61,33 @@ p {
     h2 {
         margin: 0 10px;
         font-size: 200%;
+    }
+
+    section#escritorio {
+        position: absolute;
+        top: 6em;
+        left: 10%;
+        width: 35%;
+        border-left: #31334D 2px solid;
+        border-right: #31334D 2px solid;
+
+    }
+
+    section#internet {
+        position: absolute;
+        top: 6em;
+        right: 10%;
+        width: 35%;
+        border-left: #31334D 2px solid;
+        border-right: #31334D 2px solid;
+
+
+    }
+
+    article {
+        margin-top: 4%;
+        margin-left: 7%;
+        margin-right: 7%;
     }
 
     /* Aqui faltan estilos CSS */
